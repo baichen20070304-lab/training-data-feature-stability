@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "fits": 364,
+  "ranking_vectors": 728,
+  "importance_rows": 10192,
+  "stability_rows": 720,
+  "family_rows": 90,
+  "undefined_correlations": 0,
+  "undefined_family_comparisons": 0,
+  "max_shap_additivity_error": 8.881784197001252e-16
+}
