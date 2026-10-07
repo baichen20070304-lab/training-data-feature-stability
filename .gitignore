@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.cache/
+*.tmp
+data/*.xlsx
+results/reproduction/
+analysis_view.ipynb

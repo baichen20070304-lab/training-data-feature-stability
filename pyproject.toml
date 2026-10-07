@@ -1,0 +1,13 @@
+[project]
+name = "training-data-feature-stability"
+version = "0.1.0"
+description = "Reproducible training-data sensitivity experiment on the MSI benchmark"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = [
+  "ignore:The set_bad function:PendingDeprecationWarning:shap.*",
+  "ignore:The set_over function:PendingDeprecationWarning:shap.*",
+  "ignore:The set_under function:PendingDeprecationWarning:shap.*",
+]
