@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/Andy-lucky2005/feature_importance_analysis",
+  "commit": "c17c6832e5d18d66f059ba863375161490775f96",
+  "files": {
+    "data/Science_feature_data.xlsx": "37e36004645d1a36b36f4cea3b22ed00d0c127bf675e564a8227b26da88a0550",
+    "provenance/upstream_config.py": "3503ba1e54caa4a02d04101589c1f7ee15aaaedc3e1c9e239182794d334023d1",
+    "provenance/upstream_model_utils.py": "73bc82755c05daff261c4b01714c91aec8de26da580cd4035bc4e0d10b7f09ee"
+  },
+  "download_date": "2026-10-06",
+  "license_note": "Upstream did not expose an explicit license in the inspected root. Data/configuration retained with attribution for this research project; check rights before redistribution."
+}
