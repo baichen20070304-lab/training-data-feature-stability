@@ -1,0 +1,40 @@
+{
+  "dataset": "data/Science_feature_data.xlsx",
+  "output": "results/reproduction",
+  "sample_sizes": [
+    36,
+    71,
+    107
+  ],
+  "repeats": 30,
+  "pilot_repeats": 3,
+  "seed": 1412,
+  "background_size": 20,
+  "pfi_repeats": 30,
+  "calibration_threshold": 0.95,
+  "workers": 4,
+  "models": {
+    "LR": {},
+    "RF": {
+      "n_estimators": 66,
+      "max_depth": 9,
+      "max_features": 7,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1
+    },
+    "GBRT": {
+      "n_estimators": 266,
+      "learning_rate": 0.07400928184149287,
+      "max_depth": 3,
+      "subsample": 0.8314787464970493,
+      "min_samples_split": 9,
+      "min_samples_leaf": 3
+    },
+    "SVR": {
+      "kernel": "rbf",
+      "C": 28.92583740213864,
+      "epsilon": 0.09661424638635481,
+      "gamma": 0.01042110123339548
+    }
+  }
+}
